@@ -1,0 +1,229 @@
+<?xml version="1.0"?>
+<Panel Type="Vector.CANalyzer.Panels.PanelSerializer, Vector.CANalyzer.Panels.Serializer, Version=10.0.125.0, Culture=neutral, PublicKeyToken=null">
+  <Object Type="Vector.CANalyzer.Panels.Runtime.Panel, Vector.CANalyzer.Panels.Common, Version=10.0.125.0, Culture=neutral, PublicKeyToken=null" Name="Panel" Children="Controls" ControlName="MEB">
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.125.0, Culture=neutral, PublicKeyToken=null" Name="SwitchControl16" ControlName="Switch/Indicator">
+      <Property Name="Name">SwitchControl16</Property>
+      <Property Name="Size">24, 24</Property>
+      <Property Name="Location">235, 209</Property>
+      <Property Name="StateCnt">2</Property>
+      <Property Name="SwitchValues">1;2;0;116</Property>
+      <Property Name="Increment">116</Property>
+      <Property Name="TransparentColor">White</Property>
+      <Property Name="ImageFile">Panels\Bitmaps\lLedred_2.bmp</Property>
+      <Property Name="SymbolConfiguration">5;2;MEB_MFLCAN;MFL_CAN;MFL_Tasten_Kon_01;MFL_Tastencode_1;1;CAN MEB;;-1;;;</Property>
+      <Property Name="TabIndex">19</Property>
+      <Property Name="ReadOnlyControl">True</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.125.0, Culture=neutral, PublicKeyToken=null" Name="SwitchControl17" ControlName="Switch/Indicator">
+      <Property Name="Name">SwitchControl17</Property>
+      <Property Name="Size">24, 24</Property>
+      <Property Name="Location">126, 235</Property>
+      <Property Name="StateCnt">2</Property>
+      <Property Name="SwitchValues">1;2;0;1</Property>
+      <Property Name="TransparentColor">White</Property>
+      <Property Name="ImageFile">Panels\Bitmaps\lLedred_2.bmp</Property>
+      <Property Name="SymbolConfiguration">5;2;MEB_MFLCAN;MFL_CAN;GRA_ACC_01;GRA_TravelAssist;1;CAN MEB;;-1;;;</Property>
+      <Property Name="TabIndex">18</Property>
+      <Property Name="ReadOnlyControl">True</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.125.0, Culture=neutral, PublicKeyToken=null" Name="SwitchControl15" ControlName="Switch/Indicator">
+      <Property Name="Name">SwitchControl15</Property>
+      <Property Name="Size">24, 24</Property>
+      <Property Name="Location">116, 170</Property>
+      <Property Name="StateCnt">2</Property>
+      <Property Name="SwitchValues">1;2;0;1</Property>
+      <Property Name="TransparentColor">White</Property>
+      <Property Name="ImageFile">Panels\Bitmaps\lLedred_2.bmp</Property>
+      <Property Name="SymbolConfiguration">5;2;MEB_MFLCAN;MFL_CAN;GRA_ACC_01;GRA_Tip_Setzen;1;CAN MEB;;-1;;;</Property>
+      <Property Name="TabIndex">16</Property>
+      <Property Name="ReadOnlyControl">True</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.125.0, Culture=neutral, PublicKeyToken=null" Name="SwitchControl14" ControlName="Switch/Indicator">
+      <Property Name="Name">SwitchControl14</Property>
+      <Property Name="Size">24, 24</Property>
+      <Property Name="Location">164, 200</Property>
+      <Property Name="StateCnt">2</Property>
+      <Property Name="SwitchValues">1;2;0;1</Property>
+      <Property Name="TransparentColor">White</Property>
+      <Property Name="ImageFile">Panels\Bitmaps\lLedred_2.bmp</Property>
+      <Property Name="SymbolConfiguration">5;2;MEB_MFLCAN;MFL_CAN;GRA_ACC_01;GRA_Tip_Runter;1;CAN MEB;;-1;;;</Property>
+      <Property Name="TabIndex">15</Property>
+      <Property Name="ReadOnlyControl">True</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.125.0, Culture=neutral, PublicKeyToken=null" Name="SwitchControl13" ControlName="Switch/Indicator">
+      <Property Name="Name">SwitchControl13</Property>
+      <Property Name="Size">24, 24</Property>
+      <Property Name="Location">171, 137</Property>
+      <Property Name="StateCnt">2</Property>
+      <Property Name="SwitchValues">1;2;0;1</Property>
+      <Property Name="TransparentColor">White</Property>
+      <Property Name="ImageFile">Panels\Bitmaps\lLedred_2.bmp</Property>
+      <Property Name="SymbolConfiguration">5;2;MEB_MFLCAN;MFL_CAN;GRA_ACC_01;GRA_Tip_Hoch;1;CAN MEB;;-1;;;</Property>
+      <Property Name="TabIndex">14</Property>
+      <Property Name="ReadOnlyControl">True</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.125.0, Culture=neutral, PublicKeyToken=null" Name="SwitchControl12" ControlName="Switch/Indicator">
+      <Property Name="Name">SwitchControl12</Property>
+      <Property Name="Size">24, 24</Property>
+      <Property Name="Location">167, 167</Property>
+      <Property Name="StateCnt">2</Property>
+      <Property Name="SwitchValues">1;2;0;3</Property>
+      <Property Name="TransparentColor">White</Property>
+      <Property Name="ImageFile">Panels\Bitmaps\lLedred_2.bmp</Property>
+      <Property Name="SymbolConfiguration">5;2;MEB_MFLCAN;MFL_CAN;GRA_ACC_01;GRA_Verstellung_Zeitluecke;1;CAN MEB;;-1;;;</Property>
+      <Property Name="TabIndex">13</Property>
+      <Property Name="ReadOnlyControl">True</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.125.0, Culture=neutral, PublicKeyToken=null" Name="SwitchControl11" ControlName="Switch/Indicator">
+      <Property Name="Name">SwitchControl11</Property>
+      <Property Name="Size">24, 24</Property>
+      <Property Name="Location">224, 163</Property>
+      <Property Name="StateCnt">2</Property>
+      <Property Name="SwitchValues">1;2;0;1</Property>
+      <Property Name="TransparentColor">White</Property>
+      <Property Name="ImageFile">Panels\Bitmaps\lLedred_2.bmp</Property>
+      <Property Name="SymbolConfiguration">5;2;MEB_MFLCAN;MFL_CAN;GRA_ACC_01;GRA_Tip_Wiederaufnahme;1;CAN MEB;;-1;;;</Property>
+      <Property Name="TabIndex">12</Property>
+      <Property Name="ReadOnlyControl">True</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.125.0, Culture=neutral, PublicKeyToken=null" Name="SwitchControl10" ControlName="Switch/Indicator">
+      <Property Name="Name">SwitchControl10</Property>
+      <Property Name="Size">24, 24</Property>
+      <Property Name="Location">251, 120</Property>
+      <Property Name="StateCnt">2</Property>
+      <Property Name="SwitchValues">1;2;0;1</Property>
+      <Property Name="TransparentColor">White</Property>
+      <Property Name="ImageFile">Panels\Bitmaps\lLedred_2.bmp</Property>
+      <Property Name="SymbolConfiguration">5;2;MEB_MFLCAN;MFL_CAN;GRA_ACC_01;GRA_Hauptschalter;1;CAN MEB;;-1;;;</Property>
+      <Property Name="TabIndex">11</Property>
+      <Property Name="ReadOnlyControl">True</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.125.0, Culture=neutral, PublicKeyToken=null" Name="SwitchControl9" ControlName="Switch/Indicator">
+      <Property Name="Name">SwitchControl9</Property>
+      <Property Name="Size">24, 24</Property>
+      <Property Name="Location">589, 236</Property>
+      <Property Name="StateCnt">2</Property>
+      <Property Name="SwitchValues">1;2;0;11</Property>
+      <Property Name="Increment">11</Property>
+      <Property Name="TransparentColor">White</Property>
+      <Property Name="ImageFile">Panels\Bitmaps\lLedred_2.bmp</Property>
+      <Property Name="SymbolConfiguration">5;2;MEB_MFLCAN;MFL_CAN;MFL_Tasten_Kon_01;MFL_Tastencode_1;1;CAN MEB;;-1;;;</Property>
+      <Property Name="TabIndex">10</Property>
+      <Property Name="ReadOnlyControl">True</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.125.0, Culture=neutral, PublicKeyToken=null" Name="SwitchControl8" ControlName="Switch/Indicator">
+      <Property Name="Name">SwitchControl8</Property>
+      <Property Name="Size">24, 24</Property>
+      <Property Name="Location">519, 239</Property>
+      <Property Name="StateCnt">2</Property>
+      <Property Name="SwitchValues">1;2;0;10</Property>
+      <Property Name="Increment">10</Property>
+      <Property Name="TransparentColor">White</Property>
+      <Property Name="ImageFile">Panels\Bitmaps\lLedred_2.bmp</Property>
+      <Property Name="SymbolConfiguration">5;2;MEB_MFLCAN;MFL_CAN;MFL_Tasten_Kon_01;MFL_Tastencode_1;1;CAN MEB;;-1;;;</Property>
+      <Property Name="TabIndex">9</Property>
+      <Property Name="ReadOnlyControl">True</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.125.0, Culture=neutral, PublicKeyToken=null" Name="SwitchControl7" ControlName="Switch/Indicator">
+      <Property Name="Name">SwitchControl7</Property>
+      <Property Name="Size">24, 24</Property>
+      <Property Name="Location">469, 119</Property>
+      <Property Name="StateCnt">2</Property>
+      <Property Name="SwitchValues">1;2;0;25</Property>
+      <Property Name="Increment">25</Property>
+      <Property Name="TransparentColor">White</Property>
+      <Property Name="ImageFile">Panels\Bitmaps\lLedred_2.bmp</Property>
+      <Property Name="SymbolConfiguration">5;2;MEB_MFLCAN;MFL_CAN;MFL_Tasten_Kon_01;MFL_Tastencode_1;1;CAN MEB;;-1;;;</Property>
+      <Property Name="TabIndex">8</Property>
+      <Property Name="ReadOnlyControl">True</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.125.0, Culture=neutral, PublicKeyToken=null" Name="SwitchControl6" ControlName="Switch/Indicator">
+      <Property Name="Name">SwitchControl6</Property>
+      <Property Name="Size">24, 24</Property>
+      <Property Name="Location">484, 163</Property>
+      <Property Name="StateCnt">2</Property>
+      <Property Name="SwitchValues">1;2;0;32</Property>
+      <Property Name="Increment">32</Property>
+      <Property Name="TransparentColor">White</Property>
+      <Property Name="ImageFile">Panels\Bitmaps\lLedyellow_2.bmp</Property>
+      <Property Name="SymbolConfiguration">5;2;MEB_MFLCAN;MFL_CAN;MFL_Tasten_Kon_01;MFL_Tastencode_1;1;CAN MEB;;-1;;;</Property>
+      <Property Name="TabIndex">7</Property>
+      <Property Name="ReadOnlyControl">True</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.125.0, Culture=neutral, PublicKeyToken=null" Name="SwitchControl5" ControlName="Switch/Indicator">
+      <Property Name="Name">SwitchControl5</Property>
+      <Property Name="Size">24, 24</Property>
+      <Property Name="Location">484, 163</Property>
+      <Property Name="StateCnt">2</Property>
+      <Property Name="SwitchValues">1;2;0;17</Property>
+      <Property Name="Increment">17</Property>
+      <Property Name="TransparentColor">White</Property>
+      <Property Name="ImageFile">Panels\Bitmaps\lLedred_2.bmp</Property>
+      <Property Name="SymbolConfiguration">5;2;MEB_MFLCAN;MFL_CAN;MFL_01;MFL_Tastencode_1;1;CAN MEB;;-1;;;</Property>
+      <Property Name="TabIndex">6</Property>
+      <Property Name="ReadOnlyControl">True</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.125.0, Culture=neutral, PublicKeyToken=null" Name="SwitchControl4" ControlName="Switch/Indicator">
+      <Property Name="Name">SwitchControl4</Property>
+      <Property Name="Size">24, 24</Property>
+      <Property Name="Location">597, 169</Property>
+      <Property Name="StateCnt">2</Property>
+      <Property Name="SwitchValues">1;2;0;16</Property>
+      <Property Name="Increment">16</Property>
+      <Property Name="TransparentColor">White</Property>
+      <Property Name="ImageFile">Panels\Bitmaps\lLedred_2.bmp</Property>
+      <Property Name="SymbolConfiguration">5;2;MEB_MFLCAN;MFL_CAN;MFL_Tasten_Kon_01;MFL_Tastencode_1;1;CAN MEB;;-1;;;</Property>
+      <Property Name="TabIndex">5</Property>
+      <Property Name="ReadOnlyControl">True</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.125.0, Culture=neutral, PublicKeyToken=null" Name="SwitchControl3" ControlName="Switch/Indicator">
+      <Property Name="Name">SwitchControl3</Property>
+      <Property Name="Size">24, 24</Property>
+      <Property Name="Location">548, 200</Property>
+      <Property Name="StateCnt">2</Property>
+      <Property Name="SwitchValues">1;2;0;5</Property>
+      <Property Name="Increment">5</Property>
+      <Property Name="TransparentColor">White</Property>
+      <Property Name="ImageFile">Panels\Bitmaps\lLedred_2.bmp</Property>
+      <Property Name="SymbolConfiguration">5;2;MEB_MFLCAN;MFL_CAN;MFL_Tasten_Kon_01;MFL_Tastencode_1;1;CAN MEB;;-1;;;</Property>
+      <Property Name="TabIndex">4</Property>
+      <Property Name="ReadOnlyControl">True</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.125.0, Culture=neutral, PublicKeyToken=null" Name="SwitchControl2" ControlName="Switch/Indicator">
+      <Property Name="Name">SwitchControl2</Property>
+      <Property Name="Size">24, 24</Property>
+      <Property Name="Location">545, 136</Property>
+      <Property Name="StateCnt">2</Property>
+      <Property Name="SwitchValues">1;2;0;4</Property>
+      <Property Name="Increment">4</Property>
+      <Property Name="TransparentColor">White</Property>
+      <Property Name="ImageFile">Panels\Bitmaps\lLedred_2.bmp</Property>
+      <Property Name="SymbolConfiguration">5;2;MEB_MFLCAN;MFL_CAN;MFL_Tasten_Kon_01;MFL_Tastencode_1;1;CAN MEB;;-1;;;</Property>
+      <Property Name="TabIndex">3</Property>
+      <Property Name="ReadOnlyControl">True</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.125.0, Culture=neutral, PublicKeyToken=null" Name="SwitchControl1" ControlName="Switch/Indicator">
+      <Property Name="Name">SwitchControl1</Property>
+      <Property Name="Size">24, 24</Property>
+      <Property Name="Location">546, 167</Property>
+      <Property Name="StateCnt">2</Property>
+      <Property Name="SwitchValues">1;2;0;7</Property>
+      <Property Name="Increment">7</Property>
+      <Property Name="TransparentColor">White</Property>
+      <Property Name="ImageFile">Panels\Bitmaps\lLedred_2.bmp</Property>
+      <Property Name="SymbolConfiguration">5;2;MEB_MFLCAN;MFL_CAN;MFL_Tasten_Kon_01;MFL_Tastencode_1;1;CAN MEB;;-1;;;</Property>
+      <Property Name="TabIndex">2</Property>
+      <Property Name="ReadOnlyControl">True</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.PictureBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.125.0, Culture=neutral, PublicKeyToken=null" Name="PictureBoxControl1" ControlName="Picture Box">
+      <Property Name="Name">PictureBoxControl1</Property>
+      <Property Name="Size">744, 294</Property>
+      <Property Name="Location">0, 0</Property>
+      <Property Name="ImageFile">Panels\Bitmaps\MEB.jpg</Property>
+      <Property Name="IsProportional">False</Property>
+    </Object>
+    <Property Name="Name">Panel</Property>
+    <Property Name="Size">738, 296</Property>
+    <Property Name="BackColor">White</Property>
+  </Object>
+</Panel>

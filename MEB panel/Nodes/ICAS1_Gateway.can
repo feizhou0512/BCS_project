@@ -1,0 +1,103 @@
+/*@!Encoding:1252*/
+includes
+{
+  
+}
+
+variables
+{
+  message Dimmung_01 dimMsg;                      // 200ms
+  message Gateway_73 gatewayMsg;                  // 50ms
+  message Klemmen_Status_01 klemmenMsg;           // 100ms
+  message ACC_14 acc14Msg;                        // 60ms
+  message ACC_13 acc13Msg;                        // 60ms
+  message UserStateServer_01 userStateServerMsg;  // 100ms
+  message MFL_Anf_01 mflAnfMsg;                   // 1000ms
+  message TA_01 TaMsg;                            // 100ms
+  
+  msTimer T200ms;
+  msTimer T50ms;
+  msTimer T100ms;
+  msTimer T60ms;
+  msTimer T1000ms;
+  
+}
+
+on start
+{ 
+  setTimer(T200ms, 200);
+  setTimer(T50ms, 50);
+  setTimer(T100ms, 100);
+  setTimer(T60ms, 60);
+  setTimer(T1000ms, 1000);
+}
+
+on timer T200ms
+{
+  // send Panel Value to Signal
+  dimMsg.DI_KL_58xd = getValue(EnvDimming_KL58xd);
+  dimMsg.DI_KL_58xt = getValue(EnvDimming_KL58xt);
+  dimMsg.DI_KL_58xs = getValue(EnvDimming_KL58s);
+
+  // send Signal on Bus
+  output(dimMsg); //200ms
+  
+  // restart Timer
+  setTimer(T200ms, 200);
+}
+
+on timer T50ms
+{
+  // send Panel Value to Signal
+  gatewayMsg.TSK_Hauptschalter_GRA_ACC = getValue(EnvLighting_TSK_Hauptschalter);  
+  gatewayMsg.TSK_Limiter_ausgewaehlt = getValue(EnvLighting_TSK_Limiter);
+  
+  // send Signal on Bus 50ms
+  output(gatewayMsg);
+  
+  // restart Timer
+  setTimer(T50ms, 50);
+}
+
+on timer T100ms
+{ 
+  // send Panel Value to Signal 
+  klemmenMsg.ZAS_Kl_15 = getValue(EnvCommon_Kl15); 
+  userStateServerMsg.OPS_ComfortReadyStatus = getValue(EnvLighting_OpsComfortRdyStatus); 
+  TaMsg.TA_FoD_Status = getValue(EnvLighting_TA_FoD_Status);  
+  
+  // send Signal on Bus 100ms
+  output(klemmenMsg); 
+  output(userStateServerMsg);
+  output(TaMsg);
+  
+  // restart Timer
+  setTimer(T100ms, 100);
+}
+
+on timer T60ms
+{
+  // send Panel Value to Signal
+  acc14Msg.ACC_FoD_Status = getValue(EnvLighting_AccFodStatus);  
+  acc13Msg.ACC_Status_GRA_Modus = getValue(EnvLighting_StatusGraModus);  
+  
+  // send Signal on Bus 60ms
+  output(acc14Msg);
+  output(acc13Msg);
+  
+  // restart Timer
+  setTimer(T60ms, 60);
+}
+
+on timer T1000ms
+{
+  // send Panel Value to Signal
+  mflAnfMsg.MFL_Taste_SDS_benoetigt = getValue(EnvLighting_MFLTasteSDS);
+  
+  // send Signal on Bus 1000ms
+  output(mflAnfMsg);  
+  
+  // restart Timer
+  setTimer(T1000ms, 1000);  
+}
+

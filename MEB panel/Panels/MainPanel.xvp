@@ -1,0 +1,201 @@
+<?xml version="1.0"?>
+<Panel Type="Vector.CANalyzer.Panels.PanelSerializer, Vector.CANalyzer.Panels.Serializer, Version=10.0.125.0, Culture=neutral, PublicKeyToken=null">
+  <Object Type="Vector.CANalyzer.Panels.Runtime.Panel, Vector.CANalyzer.Panels.Common, Version=10.0.125.0, Culture=neutral, PublicKeyToken=null" Name="Panel" Children="Controls" ControlName="MainPanel">
+    <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.125.0, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl2" Children="Controls" ControlName="Group Box 7">
+      <Object Type="Vector.CANalyzer.Panels.Design.StaticTextControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.125.0, Culture=neutral, PublicKeyToken=null" Name="StaticTextControl1" Children="Controls" ControlName="Static Text">
+        <Property Name="Name">StaticTextControl1</Property>
+        <Property Name="Size">72, 16</Property>
+        <Property Name="Location">51, 37</Property>
+        <Property Name="Font">Microsoft Sans Serif, 9.75pt</Property>
+        <Property Name="Text">ZAS_Kl_15</Property>
+      </Object>
+      <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.125.0, Culture=neutral, PublicKeyToken=null" Name="SwitchControl1" ControlName="Switch/Indicator">
+        <Property Name="Name">SwitchControl1</Property>
+        <Property Name="Size">23, 30</Property>
+        <Property Name="Location">22, 23</Property>
+        <Property Name="StateCnt">2</Property>
+        <Property Name="Activation">Left</Property>
+        <Property Name="SwitchValues">1;2;0;1</Property>
+        <Property Name="SymbolConfiguration">5;1;Environment;;;EnvCommon_Kl15;1;;;-1;;;</Property>
+        <Property Name="TabIndex">0</Property>
+      </Object>
+      <Property Name="Name">GroupBoxControl2</Property>
+      <Property Name="Size">141, 74</Property>
+      <Property Name="Location">18, 18</Property>
+      <Property Name="Font">Microsoft Sans Serif, 11.25pt, style=Bold</Property>
+      <Property Name="Text">Klemmenstatus</Property>
+      <Property Name="TabIndex">76</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.125.0, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl11" Children="Controls" ControlName="Group Box 3">
+      <Object Type="Vector.CANalyzer.Panels.Design.ComboBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.125.0, Culture=neutral, PublicKeyToken=null" Name="ComboBoxControl7" Children="Controls" ControlName="Combo Box 6">
+        <Property Name="Name">ComboBoxControl7</Property>
+        <Property Name="Size">163, 38</Property>
+        <Property Name="Location">203, 167</Property>
+        <Property Name="DropDownWidth">186</Property>
+        <Property Name="BackColor">Window</Property>
+        <Property Name="ForeColor">WindowText</Property>
+        <Property Name="TextBackColor">LightGray</Property>
+        <Property Name="DisplayLabel">Top</Property>
+        <Property Name="DescriptionText">OPS_ComfortReadyStatus</Property>
+        <Property Name="DescriptionSize">163, 17</Property>
+        <Property Name="SymbolConfiguration">5;1;Environment;;;EnvLighting_OpsComfortRdyStatus;1;;;-1;;;</Property>
+        <Property Name="TabIndex">76</Property>
+      </Object>
+      <Object Type="Vector.CANalyzer.Panels.Design.ComboBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.125.0, Culture=neutral, PublicKeyToken=null" Name="ComboBoxControl2" Children="Controls" ControlName="Combo Box 3">
+        <Property Name="Name">ComboBoxControl2</Property>
+        <Property Name="Size">164, 38</Property>
+        <Property Name="Location">9, 122</Property>
+        <Property Name="DropDownWidth">200</Property>
+        <Property Name="BackColor">Window</Property>
+        <Property Name="ForeColor">WindowText</Property>
+        <Property Name="TextBackColor">LightGray</Property>
+        <Property Name="DisplayLabel">Top</Property>
+        <Property Name="DescriptionText">ACC_Status_GRA_Modus</Property>
+        <Property Name="DescriptionSize">164, 17</Property>
+        <Property Name="SymbolConfiguration">5;1;Environment;;;EnvLighting_StatusGraModus;1;;;-1;;;</Property>
+        <Property Name="TabIndex">70</Property>
+      </Object>
+      <Object Type="Vector.CANalyzer.Panels.Design.ComboBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.125.0, Culture=neutral, PublicKeyToken=null" Name="ComboBoxControl6" Children="Controls" ControlName="Combo Box 8">
+        <Property Name="Name">ComboBoxControl6</Property>
+        <Property Name="Size">164, 38</Property>
+        <Property Name="Location">9, 167</Property>
+        <Property Name="DropDownWidth">147</Property>
+        <Property Name="BackColor">Window</Property>
+        <Property Name="ForeColor">WindowText</Property>
+        <Property Name="TextBackColor">LightGray</Property>
+        <Property Name="DisplayLabel">Top</Property>
+        <Property Name="DescriptionText">MFL_Taste_SDS_benötigt</Property>
+        <Property Name="DescriptionSize">164, 17</Property>
+        <Property Name="SymbolConfiguration">5;1;Environment;;;EnvLighting_MFLTasteSDS;1;;;-1;;;</Property>
+        <Property Name="TabIndex">75</Property>
+      </Object>
+      <Object Type="Vector.CANalyzer.Panels.Design.ComboBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.125.0, Culture=neutral, PublicKeyToken=null" Name="ComboBoxControl4" Children="Controls" ControlName="Combo Box 7">
+        <Property Name="Name">ComboBoxControl4</Property>
+        <Property Name="Size">163, 38</Property>
+        <Property Name="Location">203, 34</Property>
+        <Property Name="DropDownWidth">153</Property>
+        <Property Name="BackColor">Window</Property>
+        <Property Name="ForeColor">WindowText</Property>
+        <Property Name="TextBackColor">LightGray</Property>
+        <Property Name="DisplayLabel">Top</Property>
+        <Property Name="DescriptionText">TA_FoD_Status:</Property>
+        <Property Name="DescriptionSize">163, 17</Property>
+        <Property Name="SymbolConfiguration">5;1;Environment;;;EnvLighting_TA_FoD_Status;1;;;-1;;;</Property>
+        <Property Name="TabIndex">74</Property>
+      </Object>
+      <Object Type="Vector.CANalyzer.Panels.Design.ComboBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.125.0, Culture=neutral, PublicKeyToken=null" Name="ComboBoxControl3" Children="Controls" ControlName="Combo Box">
+        <Property Name="Name">ComboBoxControl3</Property>
+        <Property Name="Size">163, 38</Property>
+        <Property Name="Location">202, 78</Property>
+        <Property Name="DropDownWidth">163</Property>
+        <Property Name="BackColor">Window</Property>
+        <Property Name="ForeColor">WindowText</Property>
+        <Property Name="TextBackColor">LightGray</Property>
+        <Property Name="DisplayLabel">Top</Property>
+        <Property Name="DescriptionText">TSK_Hauptschalter_GRA_ACC</Property>
+        <Property Name="DescriptionSize">163, 17</Property>
+        <Property Name="SymbolConfiguration">5;1;Environment;;;EnvLighting_TSK_Hauptschalter;1;;;-1;;;</Property>
+        <Property Name="TabIndex">72</Property>
+      </Object>
+      <Object Type="Vector.CANalyzer.Panels.Design.ComboBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.125.0, Culture=neutral, PublicKeyToken=null" Name="ComboBoxControl11" Children="Controls" ControlName="Combo Box 2">
+        <Property Name="Name">ComboBoxControl11</Property>
+        <Property Name="Size">164, 38</Property>
+        <Property Name="Location">9, 33</Property>
+        <Property Name="DropDownWidth">164</Property>
+        <Property Name="BackColor">Window</Property>
+        <Property Name="ForeColor">WindowText</Property>
+        <Property Name="TextBackColor">LightGray</Property>
+        <Property Name="DisplayLabel">Top</Property>
+        <Property Name="DescriptionText">ACC_FoD_Status</Property>
+        <Property Name="DescriptionSize">164, 17</Property>
+        <Property Name="SymbolConfiguration">5;1;Environment;;;EnvLighting_AccFodStatus;1;;;-1;;;</Property>
+        <Property Name="TabIndex">73</Property>
+      </Object>
+      <Object Type="Vector.CANalyzer.Panels.Design.ComboBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.125.0, Culture=neutral, PublicKeyToken=null" Name="ComboBoxControl10" Children="Controls" ControlName="Combo Box 4">
+        <Property Name="Name">ComboBoxControl10</Property>
+        <Property Name="Size">164, 38</Property>
+        <Property Name="Location">9, 77</Property>
+        <Property Name="DropDownWidth">130</Property>
+        <Property Name="BackColor">Window</Property>
+        <Property Name="ForeColor">WindowText</Property>
+        <Property Name="TextBackColor">LightGray</Property>
+        <Property Name="DisplayLabel">Top</Property>
+        <Property Name="DescriptionText">TSK_Limiter_ausgewählt</Property>
+        <Property Name="DescriptionSize">164, 17</Property>
+        <Property Name="SymbolConfiguration">5;1;Environment;;;EnvLighting_TSK_Limiter;1;;;-1;;;</Property>
+        <Property Name="TabIndex">71</Property>
+      </Object>
+      <Property Name="Name">GroupBoxControl11</Property>
+      <Property Name="Size">380, 214</Property>
+      <Property Name="Location">16, 104</Property>
+      <Property Name="Font">Microsoft Sans Serif, 11.25pt, style=Bold</Property>
+      <Property Name="Text">Gateway Signale</Property>
+      <Property Name="TabIndex">73</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.125.0, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl10" Children="Controls" ControlName="Group Box 2">
+      <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.125.0, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl1" Children="Controls" ControlName="Group Box 7">
+        <Object Type="Vector.CANalyzer.Panels.Design.TrackBarControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.125.0, Culture=neutral, PublicKeyToken=null" Name="TrackBarControl1" Children="Controls" ControlName="Dimmung">
+          <Property Name="Name">TrackBarControl1</Property>
+          <Property Name="Size">270, 47</Property>
+          <Property Name="Location">3, 19</Property>
+          <Property Name="Maximum">100</Property>
+          <Property Name="DisplayMinMax">True</Property>
+          <Property Name="MaximumDouble">100</Property>
+          <Property Name="SymbolConfiguration">5;1;Environment;;;EnvDimming_KL58s;1;;;-1;;;</Property>
+          <Property Name="TabIndex">0</Property>
+        </Object>
+        <Property Name="Name">GroupBoxControl1</Property>
+        <Property Name="Size">285, 74</Property>
+        <Property Name="Location">6, 189</Property>
+        <Property Name="Font">Microsoft Sans Serif, 11.25pt, style=Bold</Property>
+        <Property Name="Text">DI_KL_58xs</Property>
+        <Property Name="TabIndex">69</Property>
+      </Object>
+      <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.125.0, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl15" Children="Controls" ControlName="Group Box 7">
+        <Object Type="Vector.CANalyzer.Panels.Design.TrackBarControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.125.0, Culture=neutral, PublicKeyToken=null" Name="TrackBarControl6" Children="Controls" ControlName="Dimmung">
+          <Property Name="Name">TrackBarControl6</Property>
+          <Property Name="Size">270, 47</Property>
+          <Property Name="Location">3, 19</Property>
+          <Property Name="Maximum">100</Property>
+          <Property Name="DisplayMinMax">True</Property>
+          <Property Name="MaximumDouble">100</Property>
+          <Property Name="SymbolConfiguration">5;1;Environment;;;EnvDimming_KL58xt;1;;;-1;;;</Property>
+          <Property Name="TabIndex">0</Property>
+        </Object>
+        <Property Name="Name">GroupBoxControl15</Property>
+        <Property Name="Size">285, 74</Property>
+        <Property Name="Location">6, 109</Property>
+        <Property Name="Font">Microsoft Sans Serif, 11.25pt, style=Bold</Property>
+        <Property Name="Text">DI_KL_58xt</Property>
+        <Property Name="TabIndex">68</Property>
+      </Object>
+      <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.125.0, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl14" Children="Controls" ControlName="Group Box 7">
+        <Object Type="Vector.CANalyzer.Panels.Design.TrackBarControl, Vector.CANalyzer.Panels.CommonControls, Version=10.0.125.0, Culture=neutral, PublicKeyToken=null" Name="TrackBarControl7" Children="Controls" ControlName="Dimmung">
+          <Property Name="Name">TrackBarControl7</Property>
+          <Property Name="Size">271, 47</Property>
+          <Property Name="Location">9, 19</Property>
+          <Property Name="Maximum">253</Property>
+          <Property Name="DisplayMinMax">True</Property>
+          <Property Name="MaximumDouble">253</Property>
+          <Property Name="SymbolConfiguration">5;1;Environment;;;EnvDimming_KL58xd;1;;;-1;;;</Property>
+          <Property Name="TabIndex">2</Property>
+        </Object>
+        <Property Name="Name">GroupBoxControl14</Property>
+        <Property Name="Size">286, 74</Property>
+        <Property Name="Location">6, 29</Property>
+        <Property Name="Font">Microsoft Sans Serif, 11.25pt, style=Bold</Property>
+        <Property Name="Text">DI_KL_58xd</Property>
+        <Property Name="TabIndex">67</Property>
+      </Object>
+      <Property Name="Name">GroupBoxControl10</Property>
+      <Property Name="Size">299, 275</Property>
+      <Property Name="Location">406, 43</Property>
+      <Property Name="Font">Microsoft Sans Serif, 11.25pt, style=Bold</Property>
+      <Property Name="Text">Dimmung</Property>
+      <Property Name="TabIndex">65</Property>
+    </Object>
+    <Property Name="Name">Panel</Property>
+    <Property Name="Size">721, 334</Property>
+    <Property Name="BackColor">LightGray</Property>
+  </Object>
+</Panel>
